@@ -19,4 +19,4 @@ while (!$whats_new_scrolling->EOF) {
     $content .= '</div>';
     $whats_new_scrolling->MoveNextRandom();
 }
-$content .= '</div><script type="text/javascript">$("div.whatsNewScroller").cycle(10000);</script>' . "\n";
+$content .= '</div><script>$("div.whatsNewScroller").cycle(10000);</script>' . "\n";
