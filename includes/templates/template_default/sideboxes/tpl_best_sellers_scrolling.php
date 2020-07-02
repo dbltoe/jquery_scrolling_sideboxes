@@ -19,4 +19,4 @@ while (!$best_sellers_scrolling->EOF) {
     $count++;
     $best_sellers_scrolling->MoveNext();
 }
-$content .= '</div><script type="text/javascript">$("div.bestSellersScroller").cycle(10000);</script>' . "\n";
+$content .= '</div><script>$("div.bestSellersScroller").cycle(10000);</script>' . "\n";
